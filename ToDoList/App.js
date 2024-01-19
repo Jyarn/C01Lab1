@@ -5,7 +5,7 @@ import ToDoList from './components/ToDoList';
 export default function App() {
   return (
     <View style={styles.container}>
-      <ToDoList initialValues={["yep", "aaaaa"]}/>
+      <ToDoList initialValues={["array"]}/>
       <StatusBar style="auto" />
     </View>
   );
